@@ -1,0 +1,35 @@
+@import 'app/styles/scss/base/variables';
+
+.post-card {
+  display: block;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  h3 {
+    margin: 0 0 1rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+
+  .post-excerpt {
+    margin: 0 0 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  .post-meta {
+    display: flex;
+    gap: 1rem;
+    color: #888;
+    font-size: 0.9rem;
+  }
+} 
